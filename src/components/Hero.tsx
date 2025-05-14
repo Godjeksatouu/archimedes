@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import HeroImage from '/src/photos/ecole archi.png' ;
 
 export const Hero = () => {
   return (
@@ -7,7 +8,7 @@ export const Hero = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
         style={{ 
-          backgroundImage: "url('/src/photos/ecole archi.png')",
+          backgroundImage: `url(${HeroImage})`,
           backgroundPosition: "center 30%",
           opacity: 0.3
         }}
