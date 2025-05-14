@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Menu, X, School } from 'lucide-react';
+import logoImage from '/src/photos/logo archimedes.png';
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -40,7 +41,7 @@ return (
     <div className="container mx-auto px-4 flex justify-between items-center">
       <Link to="/" className="flex items-center gap-2" onClick={closeMenu}>
       <img 
-  src="/src/photos/logo archimedes.png" 
+  src={logoImage}
   alt="Archimedes Logo" 
   className="w-20 h-20 object-contain transition-all duration-300 drop-shadow-[0_2px_4px_rgba(255,255,255,0.8)]"
 />
