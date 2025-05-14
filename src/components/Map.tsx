@@ -20,7 +20,7 @@ export const Map = () => {
   }, []);
 
   // Coordinates for Ben Ahmed, Morocco
-  const position: [number, number] = [32.8026, -7.2533]; // Approximate coordinates, adjust as needed
+  const position: [number, number] = [33.062782, -7.230399]; // Approximate coordinates, adjust as needed
   
   return (
     <div className="rounded-lg overflow-hidden shadow-lg">
